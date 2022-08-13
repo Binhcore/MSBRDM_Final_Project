@@ -1,0 +1,7 @@
+fid = fopen('parameter.txt', 'wt');
+fprintf(fid, '%s\n', char(parameter));
+fclose(fid);
+
+fid2 = fopen('Regressor.txt', 'wt');
+fprintf(fid2, '%s\n', char(Y));
+fclose(fid2);

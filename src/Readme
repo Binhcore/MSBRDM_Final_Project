@@ -1,0 +1,7 @@
+How to use the package:
+
+1. In your ROS workspace: catkin_make or catkin build
+2. roslaunch tum_ics_ur10_bringup bringUR10-simulator.launch
+3. source devel/setup.bash
+4. roslaunch tum_ics_ur10_controller_tutorial test_cartesian_controller.launch
+
